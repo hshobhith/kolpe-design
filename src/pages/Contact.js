@@ -29,7 +29,7 @@ export default function ContactForm() {
         {/* Contact Info */}
         <div className="space-y-4 text-gray-800">
           <h2 className="text-3xl font-light">Kolpe Design</h2>
-          <p>Mangalore</p>
+          <p>Mangaluru</p>
           <p>Bengaluru</p>
           <p>Coorg</p>
           <p className="mt-4">Ph: +91 94830 50656</p>

@@ -13,7 +13,7 @@ export default function Footer() {
 
           <div className="text-sm leading-relaxed max-w-md">
             <p>Kolpe Design</p>
-            <p>Mangalore || Bengaluru</p>
+            <p>Mangaluru || Bengaluru</p>
             <p>Ph: +91 94830 50656</p>
             <p>Mail: <a href="mailto:kolpedesignstudio@gmail.com" className="underline">kolpedesignstudio@gmail.com</a></p>
           </div>
