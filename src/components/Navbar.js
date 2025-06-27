@@ -33,14 +33,15 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden  bg-opacity-90 px-6 py-4 space-y-3 shadow">
-          <Link to="/" className="block text-gray-800-bold" onClick={() => setMenuOpen(false)}>Home</Link>
-          <Link to="/about" className="block text-gray-800-bold" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link to="/services" className="block text-gray-800-bold" onClick={() => setMenuOpen(false)}>Portfolio</Link>
-          {/* <Link to="/services" className="block text-gray-800-bold" onClick={() => setMenuOpen(false)}>Awards</Link> */}
-          <Link to="/contact" className="block text-gray-800-bold" onClick={() => setMenuOpen(false)}>Contact</Link>
+        <div className="absolute top-16 w-64 bg-opacity-90 px-6 py-4 space-y-3 shadow-md rounded-l-lg z-50 md:hidden transition-transform">
+          <Link to="/" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link to="/about" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>About</Link>
+          <Link to="/services" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Portfolio</Link>
+          {/* <Link to="/services" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 rounded" onClick={() => setMenuOpen(false)}>Awards</Link> */}
+          <Link to="/contact" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Contact</Link>
         </div>
       )}
+
     </nav>
   );
 }

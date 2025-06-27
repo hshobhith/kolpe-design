@@ -8,7 +8,7 @@ export default function Footer() {
           <img
             src={logo} 
             alt="Logo"
-            className="mx-auto mb-4 h-24 w-24 sm:h-26 sm:w-26"
+            className="mx-auto mb-4 h-24 w-26 sm:h-26 sm:w-28"
           />
 
           <div className="text-sm leading-relaxed max-w-md">
@@ -50,7 +50,7 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-sm mt-10 text-gray-400">
-        &copy; Shobhi | KOLPE DESIGN 
+        &copy; Shobhi | Kolpe Design Studio
       </div>
     </footer>
   );
