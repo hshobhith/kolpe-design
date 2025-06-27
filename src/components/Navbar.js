@@ -35,9 +35,12 @@ export default function Navbar() {
       {menuOpen && (
         <div className="absolute top-16 w-64 bg-opacity-90 px-6 py-4 space-y-3 shadow-md rounded-l-lg z-50 md:hidden transition-transform">
           <Link to="/" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Home</Link>
+          <br/>
           <Link to="/about" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>About</Link>
+          <br/>
           <Link to="/services" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Portfolio</Link>
           {/* <Link to="/services" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 rounded" onClick={() => setMenuOpen(false)}>Awards</Link> */}
+          <br/>
           <Link to="/contact" className="inline-block bg-white text-gray-800 font-semibold px-3 py-1 space-y-4 bg-opacity-50 rounded" onClick={() => setMenuOpen(false)}>Contact</Link>
         </div>
       )}
