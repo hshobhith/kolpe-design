@@ -8,7 +8,7 @@ export default function Footer() {
           <img
             src={logo} 
             alt="Logo"
-            className="mx-auto mb-4 h-24 w-26 sm:h-26 sm:w-28 left-0"
+            className="mx-auto mb-4 h-24 w-26 sm:h-26 ml-0 sm:w-28"
           />
 
           <div className="text-sm leading-relaxed max-w-md">
