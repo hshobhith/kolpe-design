@@ -12,7 +12,7 @@ export default function AboutUs() {
           </p>
 
           <p className="mb-4">
-            With an eye for detail and a heart for creativity, Koushik brings each project to life by blending modern design principles with a respect for the environment and cultural context. His portfolio spans residential homes, commercial complexes, and public spaces — each reflecting elegance, balance, and innovation.
+            With an eye for detail and a heart for creativity, Kaushik brings each project to life by blending modern design principles with a respect for the environment and cultural context. His portfolio spans residential homes, commercial complexes, and public spaces — each reflecting elegance, balance, and innovation.
           </p>
 
           <p className="mb-4">
@@ -20,7 +20,7 @@ export default function AboutUs() {
           </p>
 
           <p>
-            Driven by excellence and inspired by beauty, Koushik continues to shape the future of architecture — one building at a time.
+            Driven by excellence and inspired by beauty, Kaushik continues to shape the future of architecture — one building at a time.
           </p>
         </div>
 

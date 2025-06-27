@@ -8,11 +8,10 @@ export default function Footer() {
           <img
             src={logo} 
             alt="Logo"
-            className="mx-auto mb-4 h-24 w-26 sm:h-26 sm:w-28"
+            className="mx-auto mb-4 h-24 w-26 sm:h-26 sm:w-28 left-0"
           />
 
           <div className="text-sm leading-relaxed max-w-md">
-            <p>Kolpe Design</p>
             <p>Mangaluru || Bengaluru</p>
             <p>Ph: +91 94830 50656</p>
             <p>Mail: <a href="mailto:kolpedesignstudio@gmail.com" className="underline">kolpedesignstudio@gmail.com</a></p>
