@@ -10,6 +10,13 @@ export default function Footer() {
             alt="Logo"
             className="mx-auto mb-4 h-24 w-24 sm:h-26 sm:w-26"
           />
+
+          <div className="text-sm leading-relaxed max-w-md">
+            <p>Kolpe Design</p>
+            <p>Mangalore || Bengaluru</p>
+            <p>Ph: +91 94830 50656</p>
+            <p>Mail: <a href="mailto:kolpedesignstudio@gmail.com" className="underline">kolpedesignstudio@gmail.com</a></p>
+          </div>
           <div className="flex gap-6 mt-6 text-2xl">
             <a
               href="https://wa.me/919483050656"
@@ -39,12 +46,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-sm leading-relaxed max-w-md">
-          <p>Kolpe Design</p>
-          <p>Mangalore || Bengaluru</p>
-          <p>Ph: +91 94830 50656</p>
-          <p>Mail: <a href="mailto:kolpedesignstudio@gmail.com" className="underline">kolpedesignstudio@gmail.com</a></p>
-        </div>
+        
       </div>
 
       <div className="text-center text-sm mt-10 text-gray-400">

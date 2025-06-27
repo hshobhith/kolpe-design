@@ -31,7 +31,7 @@ export default function ContactForm() {
           <h2 className="text-3xl font-light">Kolpe Design</h2>
           <p>Mangalore</p>
           <p>Bengaluru</p>
-          <p>Koorg</p>
+          <p>Coorg</p>
           <p className="mt-4">Ph: +91 94830 50656</p>
           <p>Mail: <a href="mailto:kolpedesignstudio@gmail.com" className="underline">kolpedesignstudio@gmail.com</a></p>
 
