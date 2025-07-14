@@ -49,7 +49,14 @@ export default function Footer() {
       </div>
 
       <div className="text-center text-sm mt-10 text-gray-400">
-        &copy; Shobhi | Kolpe Design Studio
+        &copy;
+         <a
+            href="https://shobhith.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline hover:text-green-600 transition"
+          >Shobhi | Kolpe Design Studio
+         </a> 
       </div>
     </footer>
   );

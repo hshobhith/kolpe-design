@@ -9,18 +9,27 @@ export default function ContactForm() {
   });
 
   const handleChange = (e) =>
+    
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Example using Formspree (free and simple)
-    fetch("https://formspree.io/f/YOUR_FORM_ID", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    })
-      .then(() => alert("Message sent successfully!"))
-      .catch(() => alert("Error sending message."));
+const { name, email, subject, message } = formData;
+
+  const whatsappMessage = `📩 *New Contact Form Submission*
+
+👤 *Name:* ${name}
+📧 *Email:* ${email}
+📝 *Subject:* ${subject || "(Not Provided)"}
+💬 *Message:* ${message}
+
+📨 From: Kolpe Design Website`;
+
+  const encodedMessage = encodeURIComponent(whatsappMessage);
+  const adminNumber = "916366076182"; // Your WhatsApp number (without +)
+  const whatsappURL = `https://wa.me/${adminNumber}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
   };
 
   return (
